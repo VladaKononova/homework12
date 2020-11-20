@@ -129,6 +129,13 @@ h1 {
                              "card8";
     }
 
+    .grid3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "full";
+}
+
     .items-img {
         width: 100%;
         padding: 5px;
